@@ -6,6 +6,7 @@
   <packaging>pom</packaging>
   <modules>
   	<module>concurrentdemo</module>
+  	<module>formatdemo</module>
   </modules>
   
   <build>  
