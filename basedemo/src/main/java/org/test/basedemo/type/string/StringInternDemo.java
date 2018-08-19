@@ -1,6 +1,6 @@
-package org.test.basedemo.type;
+package org.test.basedemo.type.string;
 
-public class StringDemo {
+public class StringInternDemo {
 	public static void main(String[] args) {
 		String s1 = "Hello";
 		String s2 = "Hello";
