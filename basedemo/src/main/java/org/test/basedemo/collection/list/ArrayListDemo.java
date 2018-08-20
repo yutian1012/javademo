@@ -13,7 +13,7 @@ import java.util.ArrayList;
  * 7.clear方法，for循环数组元素，为数组元素的引用复制null。
  * 注：remove和clear并非是单独将size大小改变，并且使用null赋值删除元素，从而防止内存泄漏
  */
-public class ListDemo {
+public class ArrayListDemo {
 	public static void main(String[] args) {
 		new ArrayList<String>();
 	}
