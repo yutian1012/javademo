@@ -8,6 +8,7 @@
   	<module>concurrentdemo</module>
   	<module>formatdemo</module>
   	<module>basedemo</module>
+  	<module>jdk8</module>
   </modules>
   
   <build>  
