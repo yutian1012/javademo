@@ -1,7 +1,5 @@
 package org.sjq.thread.demo.stack;
 
-import javax.xml.bind.annotation.adapters.HexBinaryAdapter;
-
 public class ThreadRunnableStatus implements Runnable{
 
 	@Override
