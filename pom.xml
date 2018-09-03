@@ -9,6 +9,7 @@
   	<module>formatdemo</module>
   	<module>basedemo</module>
   	<module>jdk8</module>
+  	<module>algorithm</module>
   </modules>
   
   <build>  
