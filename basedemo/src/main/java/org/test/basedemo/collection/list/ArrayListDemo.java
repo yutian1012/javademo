@@ -1,6 +1,12 @@
 package org.test.basedemo.collection.list;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutput;
+import java.io.ObjectOutputStream;
 import java.util.ArrayList;
+import java.util.List;
 /**
  * 1.内部使用Object[]数组存储
  * 2.容量最大值：Integer.MAX_VALUE （如果指定的值大于该值Integer.MAX_VALUE - 8，则使用）
@@ -15,6 +21,17 @@ import java.util.ArrayList;
  */
 public class ArrayListDemo {
 	public static void main(String[] args) {
-		new ArrayList<String>();
+		List<String> list=new ArrayList<String>();
+		
+		list.add("hello");
+		try(ObjectOutputStream oos=new ObjectOutputStream(new FileOutputStream("E:/list.txt"));){
+			
+			oos.writeObject(list);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
 	}
 }
